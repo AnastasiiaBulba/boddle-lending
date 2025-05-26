@@ -1,0 +1,159 @@
+@import './common/vars';
+
+.game {
+  scroll-margin-top: 40px;
+  // background-image: url('../img/back/hero-back.png');
+  // background-repeat: no-repeat;
+}
+
+.game-wrap {
+  padding-top: 51px;
+}
+
+.game-wrap-text {
+  border: 1px solid $_black;
+  border-radius: 24px 0 0 0;
+  padding: 24px;
+  width: 336px;
+  height: 326px;
+
+  box-shadow: 10px 10px 1px 0 $_black;
+  background: $_pink;
+  margin-bottom: 24px;
+}
+
+.game-text-title {
+  font-family: 'Permanent Marker', sans-serif;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 1.5;
+  color: $_black;
+  text-shadow: 2px 2px 0px $_white;
+  padding-bottom: 16px;
+}
+
+.game-text-parag {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $_black;
+}
+
+.game-img-one-mob {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.game-img-one-desk {
+  display: none;
+}
+
+.game-wrap-star-mob {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 10px;
+
+  border-bottom: 2px solid $_black;
+  border-top: 2px solid $_black;
+  padding: 35px 60px;
+  width: 375px;
+  height: 56px;
+
+  box-shadow: 0 4px 1px 0 $_black;
+  background: $_yellow;
+}
+
+.star-img-mob {
+  width: 20px;
+}
+
+.text-star-mob {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $_black;
+}
+
+.game-wrap-star-desk {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .game {
+    scroll-margin-top: 80px;
+    // background-image: url('../img/back/hero-back.png');
+    // background-repeat: no-repeat;
+
+    // background-size: cover;
+    // background-position: center;
+  }
+
+  .game-wrap {
+    display: flex;
+    position: relative;
+  }
+
+  .game-wrap-text {
+    border: 1px solid $_black;
+    border-radius: 24px 0 0 0;
+    padding: 24px;
+    width: 528px;
+    height: 255px;
+
+    box-shadow: 10px 10px 1px 0 $_black;
+    background: $_pink;
+    margin-top: 101px;
+    margin-bottom: 224px;
+  }
+
+  .game-text-parag {
+    font-size: 20px;
+  }
+
+  .game-img-one-mob {
+    display: none;
+  }
+
+  .game-img-one-desk {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: -12%;
+  }
+
+  .game-wrap-star-mob {
+    display: none;
+  }
+
+  .game-wrap-star-desk {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 28px;
+
+    border-bottom: 2px solid $_black;
+    border-top: 2px solid $_black;
+    padding: 29px 41px;
+    width: 100%;
+    height: 94px;
+
+    box-shadow: 0 10px 1px 0 $_black;
+    background: $_yellow;
+  }
+
+  .star-img-mob {
+    width: 20px;
+  }
+
+  .text-star-mob {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: $_black;
+  }
+}

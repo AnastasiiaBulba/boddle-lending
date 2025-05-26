@@ -1,0 +1,70 @@
+@import './modal.scss';
+@import './modal-cookies.scss';
+@import './header.scss';
+@import './hero.scss';
+@import './game.scss';
+@import './how.scss';
+@import './key.scss';
+@import './gallery.scss';
+@import './user.scss';
+@import './faq.scss';
+@import './footer.scss';
+
+@import './common/reset';
+@import './common/mixins';
+@import './common/breakpoints';
+@import './common/vars';
+
+:root {
+  font-family: 'Quicksand', sans-serif;
+  color: $_black;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body.ind {
+  background: $_pink;
+  overflow-x: hidden;
+
+  background-image: url('../img/back/hero-back.png');
+
+  background-repeat: repeat-y;
+  background-position: center top;
+  background-size: auto;
+
+  margin: 0;
+  min-height: 100vh;
+}
+
+body {
+  background: $_pink;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  // padding-top: 32px;
+  // padding-bottom: 32px;
+  overflow: visible;
+}
+
+.is-hidden {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 180px;
+    padding-right: 180px;
+    // padding-top: 60px;
+    // padding-bottom: 90px;
+  }
+}

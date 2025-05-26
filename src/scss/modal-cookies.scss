@@ -1,0 +1,144 @@
+@import './common/vars';
+
+.is-hidden {
+  display: none;
+}
+
+.modal-cookies {
+  width: 375px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  background: $_white;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 40px 28px;
+}
+
+.modal-cookies-text-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 319px;
+  gap: 24px;
+}
+
+.modal-cookies-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 0.91667;
+  color: $_black;
+  text-align: center;
+}
+
+.modal-cookies-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  color: $_black;
+}
+
+.modal-cookies-dop-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal-cookies-accept,
+.modal-cookies-decline {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: $_black;
+  all: unset;
+  cursor: pointer;
+
+  border-radius: 8px;
+  width: 319px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  background: $_yellow;
+  color: $_black;
+}
+
+.modal-cookies-accept:hover,
+.modal-cookies-decline:hover {
+  background: $_white;
+  border: 1px solid $_black;
+}
+
+@media screen and (min-width: 1440px) {
+  .modal-cookies {
+    width: 1920px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 40px 108px;
+    width: 1920px;
+  }
+
+  .modal-cookies-text-wrap {
+    width: 1704px;
+  }
+
+  .modal-cookies-title {
+    font-size: 36px;
+  }
+
+  .modal-cookies-text {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .modal-cookies-dop-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .modal-cookies-accept,
+  .modal-cookies-decline {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: $_black;
+    all: unset;
+    cursor: pointer;
+
+    border-radius: 8px;
+    width: 319px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    background: $_yellow;
+    color: $_black;
+  }
+
+  .modal-cookies-accept:hover,
+  .modal-cookies-decline:hover {
+    background: $_white;
+    border: 1px solid $_black;
+    width: 317px;
+    height: 43px;
+  }
+}

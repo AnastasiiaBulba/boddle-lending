@@ -1,0 +1,72 @@
+@import './common/vars';
+
+.footer-wrap {
+  background: $_yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-bottom: 2px solid $_black;
+  border-top: 2px solid $_black;
+  padding: 29px 22px;
+
+  box-shadow: 0 10px 1px 0 $_black;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $_black;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.footer-nav-item {
+  margin-bottom: 19px;
+  cursor: pointer;
+}
+
+.footer-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: $_black;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-wrap {
+    padding: 29px 0;
+  }
+
+  .footer-nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 19px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: $_black;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+  }
+
+  .footer-nav-item {
+    cursor: pointer;
+  }
+
+  .footer-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: $_black;
+  }
+}

@@ -1,0 +1,84 @@
+@import './common/vars';
+
+.is-hidden {
+  background: none;
+  display: none;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 355px;
+  height: 687px;
+  z-index: 1001;
+}
+
+.wrap-dop {
+  width: 355px;
+  height: 687px;
+  border: 1px solid $_black;
+  border-radius: 24px 0 0 0;
+  box-shadow: 10px 10px 1px 0 $_black;
+  background: $_white;
+  padding: 36px 20px;
+  position: absolute;
+  top: 0;
+}
+
+.back-button {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 18px;
+  right: 12px;
+  cursor: pointer;
+
+  border: 1px solid $_black;
+  border-radius: 24px 0 0 0;
+  width: 52px;
+  height: 52px;
+  box-shadow: 6px 6px 1px 0 $_black;
+  background: $_pink;
+}
+
+.modal-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-nav-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  padding-top: 168px;
+  gap: 24px;
+}
+
+.modal-nav-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: $_black;
+}
+
+.modal-nav-link:hover {
+  font-weight: 700;
+  font-size: 24px;
+}
