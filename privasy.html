@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:image" content="URL_TO_THUMBNAIL_IMAGE" />
+    <meta property="og:url" content="https://braymell.com" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="500x500"
+      href="/assets/favicon500-a807b259.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="data:image/png;base64,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"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    
+    
+    
+
+    <title>Privacy Policy</title>
+    <script type="module" crossorigin src="/assets/modal-cca76ee8.js"></script>
+    <link rel="stylesheet" href="/assets/modal-1e0ab48e.css">
+    <link rel="stylesheet" href="/assets/privasy-bfca668b.css">
+    <link rel="stylesheet" href="/assets/footer-d1621577.css">
+  </head>
+
+  <body class="privacy-body">
+    <div class="container-two">
+      <section class="privacy">
+        <article class="privacy-wrapper">
+          <header class="header">
+            <div class="header-wrapper">
+              <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item">
+                    <a href="/" class="nav-link">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="/#game" class="nav-link">Game Description</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="/#how" class="nav-link">How to Play</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="/#key" class="nav-link">Key Features</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="/#gallery" class="nav-link">Gallery</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="/#faq" class="nav-link">FAQ</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="/#user" class="nav-link">User Reviews</a>
+                  </li>
+                </ul>
+              </nav>
+
+              <button type="button" class="header-burger" data-modal-open>
+                <img
+                  width="20"
+                  height="20"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACsSURBVHgB7dffDYIwGATw0wV0BEZxE91AN0Emkg10A9ygOgF8hD8pDfT1PpL7JfcA5eHS0KYFRETEtcPKu4ulAMfXUuc+KC0tOWVcKJ3BFj7MvY7JQA2+T/yQzmBheVhO4Phbnhj+RRGXrpYA3h7YjB02NcRyU0JcKN0Hz+D75QZv4M5iGDuIuLF2WLiDt5r7FVwhc1h4g78PvuJCuzuwVuBbdNjdpUlERJzpAJk2tLePoOSwAAAAAElFTkSuQmCC"
+                  alt="Burger button"
+                  class="header-burger-img"
+                />
+              </button>
+            </div>
+          </header>
+
+          <section class="privacy-section">
+            <h1 class="privacy-title">Privacy Policy</h1>
+
+            <div class="privacy-dop-wrap">
+              <p class="privacy-text paragraph">Last Updated: 2025-05-12</p>
+              <p class="privacy-text paragraph">
+                This Privacy Policy applies to the braymell.com website
+                (hereinafter referred to as "Website"). By accessing or using
+                our services, you agree to the collection and use of information
+                as described in this policy.
+              </p>
+
+              <h5 class="privacy-text-title">1. Information We Collect</h5>
+              <p class="privacy-text">
+                The Website may collect the following types of data:
+              </p>
+              <ul class="privacy-ul">
+                <li class="privacy-li">
+                  <span class="privacy-li-span">Personal Information: </span
+                  >Name, email address, and other details if voluntarily
+                  provided.
+                </li>
+                <li class="privacy-li">
+                  <span class="privacy-li-span">Technical Data: </span>IP
+                  address, browser type, and device information for analytics
+                  purposes.
+                </li>
+                <li class="privacy-li paragraph-li">
+                  <span class="privacy-li-span">Cookies & Tracking: </span>We
+                  use cookies to enhance user experience and track usage trends.
+                </li>
+              </ul>
+
+              <h5 class="privacy-text-title">2. How We Use Your Information</h5>
+              <p class="privacy-text">The data we collect may be used for:</p>
+              <ul class="privacy-ul">
+                <li class="privacy-li">
+                  Providing and improving our services.
+                </li>
+                <li class="privacy-li">
+                  Enhancing website security and preventing fraud.
+                </li>
+                <li class="privacy-li paragraph-li">
+                  Analyzing trends and user behavior through analytics tools.
+                </li>
+              </ul>
+
+              <h5 class="privacy-text-title">
+                3. Cookies and Tracking Technologies
+              </h5>
+              <p class="privacy-text paragraph">
+                We use cookies and similar technologies to personalize content,
+                track website performance, and improve user experience. Users
+                can manage or disable cookies through browser settings.
+              </p>
+
+              <h5 class="privacy-text-title">
+                Third-Party Services and External Links
+              </h5>
+              <p class="privacy-text">
+                We may use third-party services such as Google Analytics to
+                monitor traffic and improve services. These services have their
+                own privacy policies, which can be reviewed on their respective
+                websites. Below are the links to the Privacy Policy of the
+                third-party service providers used by the Application:
+              </p>
+              <ul class="privacy-list-ul">
+                <li class="privacy-list">
+                  <a
+                    href="https://policies.google.com/privacy"
+                    class="privacy-list-a"
+                    target="_blank"
+                    >Google Play Services</a
+                  >
+                </li>
+                <li class="privacy-list">
+                  <a
+                    href="https://firebase.google.com/support/privacy"
+                    class="privacy-list-a"
+                    target="_blank"
+                    >Google Analytics for Firebase</a
+                  >
+                </li>
+                <li class="privacy-list paragraph-li">
+                  <a
+                    href="https://www.facebook.com/about/privacy/update/printable"
+                    class="privacy-list-a"
+                    target="_blank"
+                    >Facebook</a
+                  >
+                </li>
+              </ul>
+
+              <h5 class="privacy-text-title">5. Data Security</h5>
+              <p class="privacy-text paragraph">
+                We implement security measures to protect collected information
+                from unauthorized access or misuse. However, no method of
+                transmission over the internet is 100% secure.
+              </p>
+
+              <h5 class="privacy-text-title">6. Children’s Privacy</h5>
+              <p class="privacy-text paragraph">
+                We may update this Privacy Policy periodically. Users will be
+                notified of significant changes through the Website. Continued
+                use of the Website after modifications implies acceptance of the
+                updated policy.
+              </p>
+
+              <h5 class="privacy-text-title">8. Your Rights</h5>
+              <p class="privacy-text">
+                Under applicable laws (e.g., GDPR, CCPA), you have rights to:
+              </p>
+              <ul class="privacy-ul">
+                <li class="privacy-li">
+                  Access, update, or delete your personal data.
+                </li>
+                <li class="privacy-li">
+                  Withdraw consent for data collection.
+                </li>
+                <li class="privacy-li paragraph-li">
+                  Request a copy of the data we store about you.
+                </li>
+              </ul>
+              <p class="privacy-text paragraph">
+                To exercise your rights, contact us via email.
+              </p>
+
+              <h5 class="privacy-text-title">9. Contact Us</h5>
+              <p class="privacy-text">
+                If you have any questions or concerns about this Privacy Policy,
+                please contact us at
+                <a class="privacy-mail" href="mailto:info@braymell.com"
+                  >info@braymell.com.</a
+                >
+              </p>
+            </div>
+          </section>
+        </article>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-wrap">
+        <div class="container-footer">
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              <a href="privasy.html" class="footer-nav-link">Privacy Policy</a>
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="terms.html" class="footer-nav-link"
+                >Terms and Conditions</a
+              >
+            </li>
+
+            <li class="footer-nav-item">
+              <a href="cookies.html" class="footer-nav-link">Cookies Policy</a>
+            </li>
+          </ul>
+
+          <p class="footer-text">© 2025 braymell.com – All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal-container">
+      <div id="modal" class="backdrop is-hidden" data-backdrop>
+        <div class="modal">
+          <div class="wrap-dop">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="back-button is-hidden"
+                data-modal-close
+              >
+                <img
+                  width="32"
+                  height="32"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACoSURBVHgB7dZBDoMgEEbhl56Um/Df3G6cxGJbwXYYFvMlbEzQt5AJkFJKKc1U9hW1//Ll274q4+phf8FBOXxgNLI2ewtOxHhkGyecif7I6XFGXEeGxRnxOTI8zohz5DJxRrwGLRVnhFPcg//YOp+FaP+5u8PcxbsDIRaJ/HZaRXBkzygRQZEjc05MjhyJM2JSZOH+nBMTrluF34awcA6Exa/8KaWU0tkTUbKCh/SqJE4AAAAASUVORK5CYII="
+                  alt="burger-button"
+                  class="back-img"
+                />
+              </button>
+            </div>
+
+            <nav class="modal-nav is-hidden" data-modal>
+              <ul class="modal-nav-list">
+                <li class="modal-nav-item">
+                  <a href="/" class="modal-nav-link">Home</a>
+                </li>
+
+                <li class="modal-nav-item">
+                  <a href="/#game" class="modal-nav-link">Game Description</a>
+                </li>
+
+                <li class="modal-nav-item">
+                  <a href="/#gallery" class="modal-nav-link">Gallery</a>
+                </li>
+
+                <li class="modal-nav-item">
+                  <a href="/#how" class="modal-nav-link">How to Play</a>
+                </li>
+
+                <li class="modal-nav-item">
+                  <a href="/#key" class="modal-nav-link">Key Features</a>
+                </li>
+
+                <li class="modal-nav-item">
+                  <a href="/#faq" class="modal-nav-link">FAQ</a>
+                </li>
+
+                <li class="modal-nav-item">
+                  <a href="/#user" class="modal-nav-link">User Reviews</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </body>
+</html>

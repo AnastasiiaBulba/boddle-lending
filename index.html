@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Boddle – Learning Made Fun | Math & ELA Game for Kids</title>
+    <meta
+      name="description"
+      content="Boddle is an award-winning educational game that helps kids master Math and ELA through fun mini-games, adaptive learning, and cute 3D characters."
+    />
+    <meta
+      name="keywords"
+      content="Boddle, educational game, kids learning app, math games for kids, ELA for kids, fun learning, gamified education, K-6 learning game"
+    />
+    <meta
+      property="og:title"
+      content="Boddle – Learning Made Fun | Math & ELA Game for Kids"
+    />
+    <meta
+      property="og:description"
+      content="Boost your child’s skills in Math and English with Boddle – a game-based learning world full of fun characters, mini-games, and personalized lessons."
+    />
+    <meta property="og:image" content="URL_TO_THUMBNAIL_IMAGE" />
+    <meta property="og:url" content="https://braymell.com" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="500x500"
+      href="/assets/favicon500-a807b259.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="data:image/png;base64,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"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    
+    <script type="module" crossorigin src="/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/modal-cca76ee8.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-8c28bcb8.js">
+    <link rel="stylesheet" href="/assets/modal-1e0ab48e.css">
+    <link rel="stylesheet" href="/assets/vendor-1f9fe898.css">
+  </head>
+  <body class="ind">
+    <div class="page-wrapper">
+      <header class="header">
+  <div class="header-wrapper">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="/" class="nav-link">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#game" class="nav-link">Game Description</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#how" class="nav-link">How to Play</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#key" class="nav-link">Key Features</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#gallery" class="nav-link">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#faq" class="nav-link">FAQ</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#user" class="nav-link">User Reviews</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button type="button" class="header-burger" data-modal-open>
+      <img
+        width="20"
+        height="20"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACsSURBVHgB7dffDYIwGATw0wV0BEZxE91AN0Emkg10A9ygOgF8hD8pDfT1PpL7JfcA5eHS0KYFRETEtcPKu4ulAMfXUuc+KC0tOWVcKJ3BFj7MvY7JQA2+T/yQzmBheVhO4Phbnhj+RRGXrpYA3h7YjB02NcRyU0JcKN0Hz+D75QZv4M5iGDuIuLF2WLiDt5r7FVwhc1h4g78PvuJCuzuwVuBbdNjdpUlERJzpAJk2tLePoOSwAAAAAElFTkSuQmCC"
+        alt="Burger button"
+        class="header-burger-img"
+      />
+    </button>
+  </div>
+</header>
+
+      <div class="modal-container">
+  <div id="modal" class="backdrop is-hidden" data-backdrop>
+    <div class="modal">
+      <div class="wrap-dop">
+        <div class="modal-header">
+          <button type="button" class="back-button is-hidden" data-modal-close>
+            <img
+              width="32"
+              height="32"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACoSURBVHgB7dZBDoMgEEbhl56Um/Df3G6cxGJbwXYYFvMlbEzQt5AJkFJKKc1U9hW1//Ll274q4+phf8FBOXxgNLI2ewtOxHhkGyecif7I6XFGXEeGxRnxOTI8zohz5DJxRrwGLRVnhFPcg//YOp+FaP+5u8PcxbsDIRaJ/HZaRXBkzygRQZEjc05MjhyJM2JSZOH+nBMTrluF34awcA6Exa/8KaWU0tkTUbKCh/SqJE4AAAAASUVORK5CYII="
+              alt="burger-button"
+              class="back-img"
+            />
+          </button>
+        </div>
+
+        <nav class="modal-nav is-hidden" data-modal>
+          <ul class="modal-nav-list">
+            <li class="modal-nav-item">
+              <a href="/" class="modal-nav-link">Home</a>
+            </li>
+
+            <li class="modal-nav-item">
+              <a href="#game" class="modal-nav-link">Game Description</a>
+            </li>
+
+            <li class="modal-nav-item">
+              <a href="#gallery" class="modal-nav-link">Gallery</a>
+            </li>
+
+            <li class="modal-nav-item">
+              <a href="#how" class="modal-nav-link">How to Play</a>
+            </li>
+
+            <li class="modal-nav-item">
+              <a href="#key" class="modal-nav-link">Key Features</a>
+            </li>
+
+            <li class="modal-nav-item">
+              <a href="#faq" class="modal-nav-link">FAQ</a>
+            </li>
+
+            <li class="modal-nav-item">
+              <a href="#user" class="modal-nav-link">User Reviews</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <section class="hero">
+  <div class="container">
+    <div class="hero-wrap-dop">
+      <div class="hero-wrap-content">
+        <h1 class="hero-title">Boddle</h1>
+
+        <div class="hero-wrap-star-mob">
+          <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+          <p class="text-star-mob">Boddle</p>
+          <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+          <p class="text-star-mob">Boddle</p>
+          <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+        </div>
+
+        <div class="hero-wrap-content-mob">
+          <p class="hero-text-bold">Make Learning an Adventure!</p>
+          <p class="hero-text">
+            Ready to splash some smarts? It’s Boddle time — let’s blast through
+            math with giggles and goo!
+          </p>
+        </div>
+
+        <picture class="hero-img">
+          <source
+            srcset="/assets/hero-desk-1x-b4ef5fa1.png 1x, /assets/hero-desk-2x-5287b5c6.png 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/assets/hero-mob-1x-27df53b4.png 1x, /assets/hero-mob-2x-bf97c575.png 2x"
+            media="(max-width: 1439px)"
+          />
+          <img src="/assets/hero-mob-1x-27df53b4.png" alt="Image boddle" />
+        </picture>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-wrap-star-desk">
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+  </div>
+</section>
+
+      <section id="game" class="game">
+  <div class="container">
+    <div class="game-wrap">
+      <div class="game-wrap-text">
+        <h3 class="game-text-title">Game Description</h3>
+        <p class="game-text-parag">
+          Boddle is an interactive learning game where kids in grades K–6 master
+          Math and ELA by playing fun games and exploring 3D worlds. It’s
+          education wrapped in excitement!
+        </p>
+      </div>
+
+      <picture class="game-img-one-desk">
+        <source
+          srcset="/assets/game-desk-1x-29221219.png 1x, /assets/game-desk-2x-300b24e0.png 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/assets/game-mob-1x-278a135c.png 1x, /assets/game-mob-2x-69675dfd.png 2x"
+          media="(max-width: 1439px)"
+        />
+        <img src="/assets/game-mob-1x-278a135c.png" alt="Image game" />
+      </picture>
+    </div>
+  </div>
+
+  <picture class="game-img-one-mob">
+    <source
+      srcset="/assets/game-desk-1x-29221219.png 1x, /assets/game-desk-2x-300b24e0.png 2x"
+      media="(min-width: 1440px)"
+    />
+    <source
+      srcset="/assets/game-mob-1x-278a135c.png 1x, /assets/game-mob-2x-69675dfd.png 2x"
+      media="(max-width: 1439px)"
+    />
+    <img src="/assets/game-mob-1x-278a135c.png" alt="Image game" />
+  </picture>
+
+  <div class="game-wrap-star-mob">
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+    <p class="text-star-mob">Boddle</p>
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+    <p class="text-star-mob">Boddle</p>
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+  </div>
+
+  <div class="game-wrap-star-desk">
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+  </div>
+</section>
+
+      <section id="how" class="how">
+  <div class="container">
+    <div class="how-wrap">
+      <div class="how-wrap-text-mob">
+        <h3 class="how-text-title">How to Play</h3>
+
+        <div class="how-wrap-mob-img">
+          <picture class="how-img-mob-one">
+            <source
+              srcset="
+                ../img/how/how-woman-desk-1x.png 1x,
+                ../img/how/how-woman-desk-2x.png 2x
+              "
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="
+                ../img/how/how-woman-mob-1x.png 1x,
+                ../img/how/how-woman-mob-2x.png 2x
+              "
+              media="(max-width: 1439px)"
+            />
+            <img src="../img/how/how-woman-mob-1x.png" alt="Image boddle" />
+          </picture>
+
+          <picture class="how-img-mob-two">
+            <source
+              srcset="
+                ../img/how/how-man-desk-1x.png 1x,
+                ../img/how/how-man-desk-2x.png 2x
+              "
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="
+                ../img/how/how-man-mob-1x.png 1x,
+                ../img/how/how-man-mob-2x.png 2x
+              "
+              media="(max-width: 1439px)"
+            />
+            <img src="../img/how/how-man-mob-1x.png" alt="Image boddle" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="how-wrap-text-desk">
+        <picture class="how-img-desk-one">
+          <source
+            srcset="/assets/how-woman-desk-1x-e72ce2fc.png 1x, /assets/how-woman-desk-2x-810d933a.png 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/assets/how-woman-mob-1x-0581d49e.png 1x, /assets/how-woman-mob-2x-a5f2cad9.png 2x"
+            media="(max-width: 1439px)"
+          />
+          <img src="/assets/how-woman-mob-1x-0581d49e.png" alt="Image boddle" />
+        </picture>
+
+        <h3 class="how-text-title">How to Play</h3>
+
+        <picture class="how-img-desk-two">
+          <source
+            srcset="/assets/how-man-desk-1x-81c9d399.png 1x, /assets/how-man-desk-2x-a451ef37.png 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/assets/how-man-mob-1x-e20527fc.png 1x, /assets/how-man-mob-2x-bdb730dc.png 2x"
+            media="(max-width: 1439px)"
+          />
+          <img src="/assets/how-man-mob-1x-e20527fc.png" alt="Image boddle" />
+        </picture>
+      </div>
+
+      <div class="how-wrap-content">
+        <div class="how-wrap-content-one">
+          <div class="how-card">
+            <p class="how-card-title">Choose Your Boddle</p>
+            <p class="how-card-text">
+              Pick and customize your learning character
+            </p>
+          </div>
+
+          <div class="how-card">
+            <p class="how-card-title">Complete Challenges</p>
+            <p class="how-card-text">
+              Play fun games designed to build academic skills
+            </p>
+          </div>
+
+          <div class="how-card">
+            <p class="how-card-title">Earn Reward</p>
+            <p class="how-card-text">
+              Collect coins, gear, and more as you learn
+            </p>
+          </div>
+        </div>
+
+        <div class="how-wrap-content-two">
+          <div class="how-card">
+            <p class="how-card-title">Track Progress</p>
+            <p class="how-card-text">
+              Parents and teachers can monitor results in real time
+            </p>
+          </div>
+
+          <div class="how-card">
+            <p class="how-card-title">Explore New Worlds</p>
+            <p class="how-card-text">
+              Unlock exciting zones as you level up your skills
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="how-wrap-star-mob">
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+    <p class="text-star-mob">Boddle</p>
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+    <p class="text-star-mob">Boddle</p>
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+  </div>
+
+  <div class="how-wrap-star-desk">
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+  </div>
+</section>
+
+      <section id="key" class="key">
+  <div class="container">
+    <div class="key-wrap">
+      <h3 class="key-text-title">Key Features</h3>
+
+      <div class="key-wrap-content">
+        <div class="key-wrap-content-one">
+          <div class="key-card card1">
+            <p class="key-card-text">Math & ELA content for grades K–6</p>
+          </div>
+
+          <div class="key-card card2">
+            <p class="key-card-text">
+              Adaptive learning for personalized lessons
+            </p>
+          </div>
+        </div>
+
+        <div class="key-wrap-content-two">
+          <div class="key-card card3">
+            <p class="key-card-text">Engaging 3D characters and rewards</p>
+          </div>
+
+          <div class="key-card card4">
+            <p class="key-card-text">
+              Easy-to-use dashboards for teachers and parents
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="key-wrap-star-mob">
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+    <p class="text-star-mob">Boddle</p>
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+    <p class="text-star-mob">Boddle</p>
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+  </div>
+
+  <div class="key-wrap-star-desk">
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+  </div>
+</section>
+
+      <section id="gallery" class="gallery">
+  <div class="container">
+    <div class="gallery-wrap">
+      <h3 class="gallery-text-title">Gallery</h3>
+
+      <div class="wrap-image">
+        <picture class="gallery-img-one">
+          <source
+            srcset="/assets/gallery-desk1-1x-ed9a0786.png 1x, /assets/gallery-desk1-2x-e5a99f88.png 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/assets/gallery-mob1-1x-46c20a63.png 1x, /assets/gallery-mob1-2x-475da58c.png 2x"
+            media="(max-width: 1439px)"
+          />
+          <img src="/assets/gallery-mob1-1x-46c20a63.png" alt="Image gallery" />
+        </picture>
+
+        <picture class="gallery-img-one">
+          <source
+            srcset="/assets/gallery-desk2-1x-40e3cf7a.png 1x, /assets/gallery-desk2-2x-46837b2d.png 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/assets/gallery-mob2-1x-d4dbc2dd.png 1x, /assets/gallery-mob2-2x-ab99e68e.png 2x"
+            media="(max-width: 1439px)"
+          />
+          <img src="/assets/gallery-mob2-1x-d4dbc2dd.png" alt="Image gallery" />
+        </picture>
+
+        <picture class="gallery-img-one">
+          <source
+            srcset="/assets/gallery-desk3-1x-10e1082d.png 1x, /assets/gallery-desk3-2x-84d5882c.png 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/assets/gallery-mob3-1x-b6baca08.png 1x, /assets/gallery-mob3-2x-46d9d103.png 2x"
+            media="(max-width: 1439px)"
+          />
+          <img src="/assets/gallery-mob3-1x-b6baca08.png" alt="Image gallery" />
+        </picture>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-wrap-star-mob">
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+    <p class="text-star-mob">Boddle</p>
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+    <p class="text-star-mob">Boddle</p>
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+  </div>
+
+  <div class="gallery-wrap-star-desk">
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+  </div>
+</section>
+
+      <section id="user" class="user">
+  <div class="container">
+    <div class="user-wrap">
+      <h3 class="user-text-title">User Reviews</h3>
+
+      <picture class="user-img-one">
+        <source
+          srcset="/assets/user-desk-1x-740dd4d3.png 1x, /assets/user-desk-2x-7a6b26dd.png 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/assets/user-mob-1x-96da54d5.png 1x, /assets/user-mob-2x-09448165.png 2x"
+          media="(max-width: 1439px)"
+        />
+        <img src="/assets/user-mob-1x-96da54d5.png" alt="Image boddle user" />
+      </picture>
+
+      <div class="user-wrap-content-mob">
+        <div class="user-card-mob user-card1">
+          <p class="user-card-image">Mr. Simmons</p>
+          <p class="user-card-text">
+            “As a teacher, this is my go-to for fun classroom review.”
+          </p>
+        </div>
+
+        <div class="user-card-mob user-card2">
+          <p class="user-card-image">Anya T.</p>
+          <p class="user-card-text">
+            “Fun, interactive, and it actually teaches. Highly recommend!”
+          </p>
+        </div>
+
+        <div class="user-card-mob user-card3">
+          <p class="user-card-image">Jasmine R.</p>
+          <p class="user-card-text">
+            “Boddle makes my son excited about learning again!”
+          </p>
+        </div>
+
+        <div class="user-card-mob user-card4">
+          <p class="user-card-image">Sarah L.</p>
+          <p class="user-card-text">
+            "My kid thinks it’s a game, but I know it’s learning! We both win!"
+          </p>
+        </div>
+
+        <div class="user-card-mob user-card5">
+          <p class="user-card-image">Jason R.</p>
+          <p class="user-card-text">
+            "The characters are adorable and the math is actually fun. Love it!"
+          </p>
+        </div>
+      </div>
+
+      <div class="user-wrap-content-desk swiper userSwiper">
+        <div class="swiper-wrapper">
+          <div class="user-card-desk duser-card1 swiper-slide">
+            <p class="user-card-image">Jason R.</p>
+            <p class="user-card-text">
+              "The characters are adorable and the math is actually fun. Love
+              it!"
+            </p>
+          </div>
+
+          <div class="user-card-desk duser-card2 swiper-slide">
+            <p class="user-card-image">Anya T.</p>
+            <p class="user-card-text">
+              “Fun, interactive, and it actually teaches. Highly recommend!”
+            </p>
+          </div>
+
+          <div class="user-card-desk duser-card3 swiper-slide">
+            <p class="user-card-image">Mr. Simmons</p>
+            <p class="user-card-text">
+              “As a teacher, this is my go-to for fun classroom review.”
+            </p>
+          </div>
+
+          <div class="user-card-desk duser-card4 swiper-slide">
+            <p class="user-card-image">Jasmine R.</p>
+            <p class="user-card-text">
+              “Boddle makes my son excited about learning again!”
+            </p>
+          </div>
+
+          <div class="user-card-desk duser-card5 swiper-slide">
+            <p class="user-card-image">Sarah L.</p>
+            <p class="user-card-text">
+              "My kid thinks it’s a game, but I know it’s learning! We both
+              win!"
+            </p>
+          </div>
+        </div>
+
+        <div class="user-wrap-btn">
+          <button class="user-btn-left">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB9SURBVHgB7dDLCcJQEEbhgzZgCbcEO7AU7cTpxFqsRKxE74VITMgqD5jA+eBfzO4wIEmSOke29ag71z1JqgV+ut1J6D+w7VV3IpGpwEIiBi5l4FIG/hyY7z26S92FhILhN9uuJBQYuq7A0HUFOw4tJBT0gTcSC5IHSpLU+wLk0VA2jGSl3wAAAABJRU5ErkJggg==" />
+          </button>
+
+          <button class="user-btn-right">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACBSURBVHgB7dXBCcJAFEXRixWkhN+ZLVlCOhErsARbsAOdQSGCuDGzeAn3wNtfPgMDkiRtxUS4Y9utrQjVAx/vxYZeWSJjQ/tbNHQkQ0czdLRfoX//TAfGm/gOurTdCVG8rvZ5xZkghYHrFAauU4QHdmfCA7tiueRMsGo7IUnSLjwBQz1QqBrqlEIAAAAASUVORK5CYII=" />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="user-wrap-star-mob">
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+    <p class="text-star-mob">Boddle</p>
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+    <p class="text-star-mob">Boddle</p>
+    <img class="star-img-mob" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFJSURBVHgB7ZeNTYUwFIU/ncAN7Aa+DewIjuAIbiAb6AYywtuAEXQD2OA9J8DevBIMgqV/iEm/5ATS0PT09pbbQqFQKKxBG52MWqMDO6Ux6q0adohiNDhIk4Br0vE80/bAjlD8jKJI8vOGSFJFUi+0i8EndoLs5p7laP45kne9Q5oIrjy+VVyWb3iKbq1J5ejbGR2NPu179629I5I3LsvVZ5aM8UIAegNzU81Wqd9294fRme04EziezKwlfwRbImu9Iq/RFvfGW230nfQGGxJUpCmvpDNYk5GKeIMVG9AQbvCIJ6EHDEU4d2yAIn65vTZLSCRT3F28DsMhJjXxeE00xKQrp9aUtnsyIrnk+jkrq5qEeemDZrm06ZnvH1kuqZpMVJOBTrbNFZVpP1G2u49ijMywtD59a8bJKTIiUYv5DR3ImI+FQuE/8QVN+x5yffM9zQAAAABJRU5ErkJggg==" alt="Image star" />
+  </div>
+
+  <div class="user-wrap-star-desk">
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+    <p class="text-star-desk">Boddle</p>
+    <img class="star-img-desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHUSURBVHgB7ZmNbcIwEIW/Vh2ADfAG7Qa4G3QENigbkE5QNoANWibICIwQOgHdII1FkPhRkxjOjonuk54SkRD8uPPhM6AoiqIoijJgPivtKpX1+aCZsjd6LMuAybk0nDNQDJdmo0f5kXjMG669MTAM/0fXyRWxERGIFWHbct2ZnTEgCpojXNb3DAI3P8uOsgyAL7obzrlzDN3NHmQISOiiNcefKQF5Qo7RkUx9tPjzXmlbi7Pzm3nwuNdWemFvZMypsYNCs631W+unPrrXvhFkg/9cjK0NQvj8rPQtSwtdilaUJZ8QImN1DylIP7pujAYhDGmbFjV7bDrF4uXGFHTaLYAyEa2IREb/ZjMiM6M/s731zm7ltSOeUfdZlp4xxKngBYE7KR8MYSv4BiGzUu3httKacKwR6pgk++EJ4Qj57KsJWbx2JIYlfNF6QQCplBYZTAsWAaQMTwjPMwlRED6lk5nHLp3LSBpzIxIp7Tt/3abbRy1fXkmAJd0jlHO6YnLnK4/3L0iALkvKguYqO+VO/nAb0V5oMrrvSGS0m+51U7GpYOVct+A3NKf5mJ45T+m29O3KlMs07z2lHYZ9RFxEM+RTLmP/pS5JqB9WFEVRFEVRzvkDltSVKP6ieFcAAAAASUVORK5CYII=" alt="Image star" />
+  </div>
+</section>
+
+      <section id="faq" class="fag">
+  <div class="container">
+    <div class="fag-wrap">
+      <h3 class="fag-text-title">FAQ</h3>
+
+      <div class="dop">
+        <div class="fag-wrap-content">
+          <div class="fag-wrap-card">
+            <div class="fag-wrap-card-title">
+              <p class="fag-card-text">Is Boddle free to use?</p>
+              <img
+                class="faq-card-img"
+                src="../img/faq/add-desk.png"
+                alt="fag add image"
+              />
+            </div>
+            <p class="fag-card-text-content">
+              Yes, it’s free for students and teachers. Optional paid features
+              are available.
+            </p>
+          </div>
+
+          <div class="fag-wrap-card">
+            <div class="fag-wrap-card-title">
+              <p class="fag-card-text">What ages is it best for?</p>
+              <img
+                class="faq-card-img"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABlCAYAAAC7vkbxAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEcSURBVHgB7drBTcNAEEDRBVEAdJASaIGOoAJKoRRKoIV0EDoIjmSJKDcOS76j96SR7KP15d3LjAEAAAAAAAAAAJDwuA4B78sc13kdXN1h/AY5jI27G9t3vHjf9DfdD1IEiREkRpAYQWIEiREkRpAYQWIEiREkRpAYQWIEiREkRpAYQWIEiREkRpAYQWIexnz/vcS2G/N8r7NZ50tstzJTl/Fm7zCdFtdubcXz9Ic8jUncIX839ciafYe8LPMx5v4lu4v3/Zhnv8zbmMgqaYwjK0aQGEFiBIkRJEaQGEFiBIkRJEaQGEFiBIkRJEaQGEFiBIkRJEaQGEFiBIkRJEaQmFsIcr64th9c3fMyX8t8rs8AAAAAAAAAAADX9AOctkoZoLsU/QAAAABJRU5ErkJggg=="
+                alt="fag add image"
+              />
+            </div>
+            <p class="fag-card-text-content">
+              Designed for kids in Kindergarten through 6th grade.
+            </p>
+          </div>
+
+          <div class="fag-wrap-card">
+            <div class="fag-wrap-card-title">
+              <p class="fag-card-text">Is it safe for kids?</p>
+              <img
+                class="faq-card-img"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABlCAYAAAC7vkbxAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEcSURBVHgB7drBTcNAEEDRBVEAdJASaIGOoAJKoRRKoIV0EDoIjmSJKDcOS76j96SR7KP15d3LjAEAAAAAAAAAAJDwuA4B78sc13kdXN1h/AY5jI27G9t3vHjf9DfdD1IEiREkRpAYQWIEiREkRpAYQWIEiREkRpAYQWIEiREkRpAYQWIEiREkRpAYQWIexnz/vcS2G/N8r7NZ50tstzJTl/Fm7zCdFtdubcXz9Ic8jUncIX839ciafYe8LPMx5v4lu4v3/Zhnv8zbmMgqaYwjK0aQGEFiBIkRJEaQGEFiBIkRJEaQGEFiBIkRJEaQGEFiBIkRJEaQGEFiBIkRJEaQmFsIcr64th9c3fMyX8t8rs8AAAAAAAAAAADX9AOctkoZoLsU/QAAAABJRU5ErkJggg=="
+                alt="fag add image"
+              />
+            </div>
+            <p class="fag-card-text-content">
+              Absolutely — Boddle is COPPA-compliant and ad-free.
+            </p>
+          </div>
+
+          <div class="fag-wrap-card">
+            <div class="fag-wrap-card-title">
+              <p class="fag-card-text">
+                Does it align with curriculum standards?
+              </p>
+              <img
+                class="faq-card-img"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABlCAYAAAC7vkbxAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEcSURBVHgB7drBTcNAEEDRBVEAdJASaIGOoAJKoRRKoIV0EDoIjmSJKDcOS76j96SR7KP15d3LjAEAAAAAAAAAAJDwuA4B78sc13kdXN1h/AY5jI27G9t3vHjf9DfdD1IEiREkRpAYQWIEiREkRpAYQWIEiREkRpAYQWIEiREkRpAYQWIEiREkRpAYQWIexnz/vcS2G/N8r7NZ50tstzJTl/Fm7zCdFtdubcXz9Ic8jUncIX839ciafYe8LPMx5v4lu4v3/Zhnv8zbmMgqaYwjK0aQGEFiBIkRJEaQGEFiBIkRJEaQGEFiBIkRJEaQGEFiBIkRJEaQGEFiBIkRJEaQmFsIcr64th9c3fMyX8t8rs8AAAAAAAAAAADX9AOctkoZoLsU/QAAAABJRU5ErkJggg=="
+                alt="fag add image"
+              />
+            </div>
+            <p class="fag-card-text-content">
+              Yes, all content is standards-aligned and built by educators.
+            </p>
+          </div>
+
+          <div class="fag-wrap-card">
+            <div class="fag-wrap-card-title">
+              <p class="fag-card-text">Can parents track progress?</p>
+              <img
+                class="faq-card-img"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABlCAYAAAC7vkbxAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEcSURBVHgB7drBTcNAEEDRBVEAdJASaIGOoAJKoRRKoIV0EDoIjmSJKDcOS76j96SR7KP15d3LjAEAAAAAAAAAAJDwuA4B78sc13kdXN1h/AY5jI27G9t3vHjf9DfdD1IEiREkRpAYQWIEiREkRpAYQWIEiREkRpAYQWIEiREkRpAYQWIEiREkRpAYQWIexnz/vcS2G/N8r7NZ50tstzJTl/Fm7zCdFtdubcXz9Ic8jUncIX839ciafYe8LPMx5v4lu4v3/Zhnv8zbmMgqaYwjK0aQGEFiBIkRJEaQGEFiBIkRJEaQGEFiBIkRJEaQGEFiBIkRJEaQGEFiBIkRJEaQmFsIcr64th9c3fMyX8t8rs8AAAAAAAAAAADX9AOctkoZoLsU/QAAAABJRU5ErkJggg=="
+                alt="fag add image"
+              />
+            </div>
+            <p class="fag-card-text-content">
+              Yes, parents get access to detailed learning reports and insights.
+            </p>
+          </div>
+        </div>
+
+        <picture class="fag-img-one">
+          <source
+            srcset="/assets/fag-desk-b285f83b.png 1x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/assets/fag-mob-87948c42.png 1x"
+            media="(max-width: 1439px)"
+          />
+          <img src="/assets/fag-mob-87948c42.png" alt="Image fag" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <div id="modal-cookies" class="backdrop is-hidden" data-backdrop>
+  <div class="modal-cookies">
+    <div class="modal-cookies-text-wrap">
+      <p class="modal-cookies-title">Cookies Policy</p>
+      <p class="modal-cookies-text">
+        We use cookies to improve your experience on our website. By browsing
+        this website, you agree to our use of cookies.
+      </p>
+    </div>
+
+    <div class="modal-cookies-dop-btn">
+      <button type="button" class="modal-cookies-accept">ACCEPT COOKIES</button>
+      <button type="button" class="modal-cookies-decline">
+        DECLINE COOKIES
+      </button>
+    </div>
+  </div>
+</div>
+
+      <footer class="footer">
+  <div class="footer-wrap">
+    <div class="container-footer">
+      <ul class="footer-nav-list">
+        <li class="footer-nav-item">
+          <a href="./privasy.html" class="footer-nav-link">Privacy Policy</a>
+        </li>
+
+        <li class="footer-nav-item">
+          <a href="./terms.html" class="footer-nav-link"
+            >Terms and Conditions</a
+          >
+        </li>
+
+        <li class="footer-nav-item">
+          <a href="./cookies.html" class="footer-nav-link">Cookies Policy</a>
+        </li>
+      </ul>
+
+      <p class="footer-text">© 2025 braymell.com – All rights reserved</p>
+    </div>
+  </div>
+</footer>
+
+    </div>
+
+    
+    
+    
+    
+  </body>
+</html>
